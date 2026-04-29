@@ -1,0 +1,23 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+ul{
+    list-style: none;
+    padding: 0;  
+}
+li{
+    padding: 10px;
+    margin: 5px;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: space-between;
+
+}
+button{
+    margin-left: 5px;
+    padding: 10px 18px;
+    border-radius: 6px;
+    font-size: 15px;
+}
