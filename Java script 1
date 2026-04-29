@@ -1,0 +1,18 @@
+let div = document.createElement("div");
+let p = document.createElement("p");
+
+p.textcontent = "ceci est un paragraphe";
+
+div.appendChild(p);
+
+document.body.appendChild(div);
+
+p.textContent = "le textte a été modifié";
+
+p.style.background = "pink";
+
+p.style.textAlign = "center";
+
+div.addEventListener("click", function(){
+    p.textContent = "un clic a été détecté";
+});
